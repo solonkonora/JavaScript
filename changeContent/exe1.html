@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>change content</title>
+</head>
+<style>
+    body {
+        width: 600px;
+        margin: 0 auto;
+        background-color: #f7ede0;
+        padding: 0 20px 20px 20px;
+        border: 5px solid black;
+    }
+    h1, h3{
+        text-align: center;
+    }
+    button {
+       text-align: center;
+       margin: auto;
+       display: flex;
+    }
+</style>
+<body>
+    <h1>What can JavaScript really do???</h1>
+    <h3 id="demonstrate">JavaScript can change the content of a text</h3>
+    <button type="button"
+    onclick="document.getElementById('demonstrate').innerHTML = 'Hello gurl, this is a new js course, enjoy!'">
+    click Me
+    </button>
+</body>
+</html>
