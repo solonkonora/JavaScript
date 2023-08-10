@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bulbOn/Off</title>
+</head>
+<body>
+
+    <button 
+    onclick="document.getElementById('myImage').src= 'pic_bulbon.gif'">
+    Click to turn On bulb
+    </button>
+
+    <img id="myImage" src="pic_bulboff.gif">
+
+    <button 
+    onclick="document.getElementById('myImage').src = 'pic_bulboff.gif'">
+    Click to turn Off bulb
+    </button>
+</body>
+</html>
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Image</title>
+</head>
+<body>
+    <h1>JavaScript can change images</h1>
+    <img id="myImage" onclick="changeimage()" src="pic_bulboff">
+    <p>click me to on/off the bulb</p>
+
+    <script>
+           function changeImage(){
+            var image = document.getElementById('myImage');
+                if(image.src.match=('bulbon')){
+                    image.src = 'pic_bulboff.gif';
+                }else{
+                    image.src = 'pic_bulbon.gif';
+                }
+            }
+    </script>
+</body>
+</html> -->
