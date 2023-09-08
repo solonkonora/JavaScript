@@ -11,3 +11,8 @@ c += 7;
 // Constructing Strings with Variables
 const myName = "Nora";
 const myStr = "My name is " + myName + "and i am well!";
+
+//appending variables to strings
+const someAdjective = "good";
+let myStri = "Learning to code is ";
+myStri += someAdjective;
