@@ -16,3 +16,10 @@ const myStr = "My name is " + myName + "and i am well!";
 const someAdjective = "good";
 let myStri = "Learning to code is ";
 myStri += someAdjective;
+
+// finding the length of a string
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+lastNameLength = lastName;
+lastNameLength = lastName.length;
