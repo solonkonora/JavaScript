@@ -18,6 +18,18 @@
     }
     return "Inside";
   }
-  
  console.log(testLogicalOr(15));
 
+
+ //else statement
+ function testElse(val) {
+  let result = "";
+  if (val > 5 && val <= 10) {
+    result = "Bigger than 5";
+  }
+ else {
+    result = "5 or Smaller";
+  }
+  return result;
+}
+console.log(testElse(4));
