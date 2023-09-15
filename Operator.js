@@ -34,7 +34,6 @@
 }
 console.log(testElse(4));
 
-
 //4 else if statement
 function testElseIf(val) {
   if (val > 10) {
@@ -45,7 +44,6 @@ else if (val < 5) {
   }
 else{  
   return "Between 5 and 10";
-}
 }
 console.log(testElseIf(7));
 
@@ -62,3 +60,5 @@ function orderMyLogic(val) {
   }
 }
 console.log(orderMyLogic(7));
+
+
