@@ -10,6 +10,7 @@
   }
   console.log(testGreaterThan(10));
 
+
   //logical OR operator
   function testLogicalOr(val) {
     if (val > 20 || val < 10) {
@@ -19,3 +20,4 @@
   }
   
  console.log(testLogicalOr(15));
+
