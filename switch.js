@@ -22,6 +22,7 @@ function caseInSwitch(val) {
   console.log(caseInSwitch(1));
 
 
+
   
   //2 adding default statement to switch
   function switchOfStuff(val) {
